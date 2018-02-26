@@ -10,16 +10,16 @@ phases:
   install:
     commands:
       - echo Entered the install phase...
-      - echo for example: apt-get install -y maven
+      - echo for example apt-get install -y maven
   pre_build:
     commands:
       - echo Entered the pre_build phase...
-      - echo for example: docker login –u User –p $LOGIN_PASSWORD
+      - echo for example docker login –u User –p $LOGIN_PASSWORD
   build:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
-      - echo for example: mvn install
+      - echo for example mvn install
       - go build src/Pluralsight/hello-world.go
   post_build:
     commands:
