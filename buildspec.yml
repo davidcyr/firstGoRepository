@@ -3,8 +3,6 @@ version: 0.2
 env:
   variables:
     EXAMPLE_VAR: "hello world"
-  parameter-store:
-    LOGIN_PASSWORD: "dockerLoginPassword"
 
 phases:
   install:
