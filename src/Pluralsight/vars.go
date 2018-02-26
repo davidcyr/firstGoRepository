@@ -9,6 +9,8 @@ var (
 	myString = "implied"
 )
 
+const pi = 3.14
+
 func main() {
 
 	// if this isn't commented out, it will give an error if the
@@ -16,5 +18,8 @@ func main() {
 	//var z bool
 
 	fmt.Println(myString)
+
+	// you aren't forced to use constants
+	const j = 2
 
 }
