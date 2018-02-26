@@ -25,6 +25,6 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - hello-world1 
+    - hello-world
   discard-paths: yes
 
